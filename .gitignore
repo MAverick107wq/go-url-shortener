@@ -1,0 +1,25 @@
+# Compiled Go binaries
+# This ignores a binary named after your module if you ever run `go build`
+url-shortener
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Our local "database" file - this should NEVER be committed.
+# Each environment (yours, a teammate's, production) should have its own.
+urls.json
+
+# Go workspace file (if you ever use `go work`)
+go.work
+go.work.sum
+
+# OS-specific junk files
+.DS_Store
